@@ -1,19 +1,30 @@
 {
   "name": "levian",
-  "version": "1.0.0",
+  "version": "99.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iYoungDev/levian.git"
+    "url": "https://github.com/iYoungDev/levian.git"
   },
   "author": "deniz?",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/iYoungDev/levian/issues"
   },
-  "homepage": "https://github.com/iYoungDev/levian#readme"
+  "homepage": "https://github.com/iYoungDev/levian#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0",
+    "glob": "^7.1.7",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "prettier": "^2.3.2"
+  }
 }
